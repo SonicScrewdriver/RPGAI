@@ -57,15 +57,12 @@ export default class Main extends Phaser.Scene {
     }
 
     // Man, I didn't know I would have to do this for every layer...
-    const worldLayer = map.createLayer("Ground Level", tilesets)!;
-    map.createLayer("Shadows", tilesets)!;
-    map.createLayer("Ground Gradient", tilesets)!;
-    map.createLayer("Exterior Base", tilesets)!;
-    map.createLayer("Exterior 1", tilesets)!;
-    map.createLayer("Exterior 2", tilesets)!;
-    map.createLayer("Exterior Decor", tilesets)!;
-    map.createLayer("Exterior Decor 2", tilesets)!;
-    map.createLayer("Garden", tilesets)!;
+    const worldLayer = map.createLayer("Floor", tilesets)!;
+    map.createLayer("Floor Decorations", tilesets)!;
+    map.createLayer("Walls", tilesets)!;
+    map.createLayer("Wall Decorations", tilesets)!;
+    map.createLayer("Objects", tilesets)!;
+    map.createLayer("Tile Layer 6", tilesets)!; // lol
 
     const objects = map.getObjectLayer("Collision")!["objects"];
     const collisionGroup = this.physics.add.staticGroup();

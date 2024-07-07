@@ -2105,7 +2105,7 @@
                 {
                  "height":0,
                  "id":160,
-                 "name":"Percival Thornton",
+                 "name":"Troubleshooter Zed-R-XYZ",
                  "point":true,
                  "rotation":0,
                  "type":"",
@@ -2117,7 +2117,7 @@
                 {
                  "height":0,
                  "id":161,
-                 "name":"Dr. Eleanor Bennett",
+                 "name":"Troubleshooter Zeta 38572-75D",
                  "point":true,
                  "rotation":0,
                  "type":"",
@@ -2129,7 +2129,7 @@
                 {
                  "height":0,
                  "id":162,
-                 "name":"Victoria Ashford",
+                 "name":"Troubleshooter Beta 009834-34D",
                  "point":true,
                  "rotation":0,
                  "type":"",
@@ -2141,19 +2141,19 @@
                 {
                  "height":0,
                  "id":163,
-                 "name":"Li Wei",
+                 "name":"The Computer",
                  "point":true,
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":1389.33,
-                 "y":1994.67
+                 "x":0,
+                 "y":0
                 }, 
                 {
                  "height":0,
                  "id":164,
-                 "name":"Amelia Turner",
+                 "name":"Vending Machine",
                  "point":true,
                  "rotation":0,
                  "type":"",
@@ -2165,7 +2165,7 @@
                 {
                  "height":0,
                  "id":165,
-                 "name":"William Harrington",
+                 "name":"Troubleshooter Gamma 3248972-99D",
                  "point":true,
                  "rotation":0,
                  "type":"",
@@ -2173,18 +2173,6 @@
                  "width":0,
                  "x":1133.75,
                  "y":441.546
-                }, 
-                {
-                 "height":0,
-                 "id":166,
-                 "name":"Mei Lin",
-                 "point":true,
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":1601.04,
-                 "y":1315.4
                 }, 
                 {
                  "height":0,

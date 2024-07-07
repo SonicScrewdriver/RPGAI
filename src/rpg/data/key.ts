@@ -8,54 +8,29 @@ const tilemap = {
 } as const;
 
 const tileset = {
-  victorianMansion: {
-    name: "victorian-mansion",
-    image: "victorian-mansion",
+  techDungeonFrames: {
+    name: "tech-dungeon-frames",
+    image: "tech-dungeon-frames",
     extruded: false,
   },
-  victorianStreets: {
-    name: "victorian-streets",
-    image: "victorian-streets",
+  techDungeonFrames2: {
+    name: "tech-dungeon-frames2",
+    image: "tech-dungeon-frames",
     extruded: false,
   },
-  victorianGarden: {
-    name: "victorian-garden",
-    image: "victorian-garden",
+  techDungeonProps: {
+    name: "tech-dungeon-props",
+    image: "tech-dungeon-props",
     extruded: false,
   },
-  victorianMarket: {
-    name: "victorian-market",
-    image: "victorian-market",
+  vendingMachines: {
+    name: "vending-machines",
+    image: "vending-machines",
     extruded: false,
   },
-  victorianWindowsDoors: {
-    name: "victorian-windows-doors",
-    image: "victorian-windows-doors",
-    extruded: false,
-  },
-  victorianAccessories: {
-    name: "victorian-accessories",
-    image: "victorian-accessories",
-    extruded: false,
-  },
-  victorianTenement: {
-    name: "victorian-tenement",
-    image: "victorian-tenement",
-    extruded: false,
-  },
-  roofs: {
-    name: "roofs",
-    image: "roofs",
-    extruded: false,
-  },
-  terrain: {
-    name: "terrain",
-    image: "terrain-extruded",
-    extruded: true,
-  },
-  treesGreen: {
-    name: "trees-green",
-    image: "trees-green",
+  lab: {
+    name: "lab",
+    image: "lab",
     extruded: false,
   },
 } as const;

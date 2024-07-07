@@ -55,9 +55,9 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
 
     // The image has a bit of whitespace so use setSize and
     // setOffset to control the size of the player's body
-    this.setSize(32, 48).setOffset(16, 14);
+    this.setSize(32, 32).setOffset(5, 5);
     this.sensor = scene.physics.add.sprite(this.x, this.y, "");
-    this.sensor.setSize(72, 96);
+    this.sensor.setSize(32, 32);
     this.sensor.setVisible(false);
 
     // Collide the sprite body with the world boundary
@@ -115,9 +115,7 @@ export default class Player extends Phaser.Physics.Arcade.Sprite {
     PubSub.subscribe(
       Topics.action,
       (_channel, data: { character: string; action: string }) => {
-        if (data.action === "Cane") {
-          this.x = caning_point.x!;
-          this.y = caning_point.y!;
+        if (data.action === "Panic") {
           this.setVelocity(0, 0);
           this.anims.play(Animation.Fall);
           if (this.scene.input.keyboard) {

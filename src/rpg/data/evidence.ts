@@ -1,4 +1,19 @@
 const evidence = {
+  /*  "Meat Popsicle": {
+    text: "This is a meat popsicle. It's a little bloody and melty, but it's still good!",
+    photo: "assets/photos/meat_popsicle.jpeg",
+    sprite: "dead_harrington",
+  },
+  Malk: {
+    text: "A Carton of Malk. It's a little warm, and three years past expiry!",
+    photo: "assets/photos/malk.jpeg",
+    sprite: "dead_harrington",
+  },
+  Rat: {
+    text: "A Carton of Malk. It's a little warm, and three years past expiry!",
+    photo: "assets/photos/malk.jpeg",
+    sprite: "dead_harrington",
+  }, */
   "Harrington Body": {
     text: "Elias Harrington's body. He looks quite deceased.",
     photo: "assets/photos/dead_elias_harrington.jpeg",

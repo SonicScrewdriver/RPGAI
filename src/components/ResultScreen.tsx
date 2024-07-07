@@ -39,10 +39,8 @@ const ResultScreen = (props: ResultScreenProps) => {
       imgSrc = "/assets/web/justice.jpeg";
       break;
     case GameResult.DEAD:
-      title = "Beaten Senseless!";
-      text = `William Harrington, with his gentlemanly sensibilities, was 
-deeply offended by your conduct. He gave you the beating of your life. Of
-course, he got off scot-free. He will no longer speak to you.`;
+      title = "Terminated for Treason!";
+      text = `Troubleshooter Zeta became panicked and decided to beat you to the punch...literally. They beat you senseless and reported you to the Computer for treasonous thoughts. You wake up to find yourself floating in your cloning vat.`;
       imgSrc = "/assets/web/hospital.jpeg";
       // TODO: fix hardcode string
       getGameState().nonInteractableNpcs.add("William Harrington");
@@ -93,7 +91,7 @@ course, he got off scot-free. He will no longer speak to you.`;
               </Button>
               <Spacer width={"30%"} />
               <Button colorScheme="teal" onClick={continueGame}>
-                Leave the Hospital and Continue
+                Leave the Cloning Vat and Continue
               </Button>
             </HStack>
           )}

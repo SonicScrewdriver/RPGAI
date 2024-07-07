@@ -31,12 +31,16 @@ export class Npc extends Phaser.Physics.Arcade.Sprite {
     this.setImmovable(true);
 
     // The image has a bit of whitespace so use setOffset
-    this.setSize(32, 24).setOffset(16, 14);
+    if (characterDef.sprite === "vending_machine") {
+      this.setSize(32, 32);
+    } else {
+      this.setSize(32, 32);
+    }
 
     this.interactText = this.scene.add.text(
       this.x - this.width / 2,
       this.y - this.height / 2 - 10,
-      "[Space]",
+      "[Space to Talk]",
       {
         align: "center",
         fontSize: "16px",

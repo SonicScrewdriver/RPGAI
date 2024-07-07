@@ -75,13 +75,9 @@ export const Landing = (props: LandingProps) => {
               flex="1"
               justifyContent="center"
             >
-              <Image
-                src="/assets/sprites/dead_harrington.png"
-                height="30%"
-                width="30%"
-              />
+              <Image src="/assets/web/paranoia.png" height="10%" width="100%" />
               <Text fontFamily="vt323" fontSize="6xl" align={"center"}>
-                nob hill noir
+                Paranoia Prototype
               </Text>
             </VStack>
 
@@ -171,16 +167,10 @@ export const Landing = (props: LandingProps) => {
           </VStack>
         </Box>
         <AspectRatio flex="4" ratio={1350 / 1150}>
-          <video
-            autoPlay
-            playsInline
-            loop
-            muted
+          <Image
+            src="/assets/web/Designer.jpeg"
             style={{ width: "100%", height: "100%" }}
-          >
-            <source src="/assets/web/gameplay.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          />
         </AspectRatio>
       </Stack>
     </Center>

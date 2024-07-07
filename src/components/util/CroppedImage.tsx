@@ -10,7 +10,7 @@ export default function CroppedImage({ imgSrc }: { imgSrc: string }) {
 
     const onLoad = () => {
       const height = image.height;
-      const clipHeight = height * 0.05;
+      const clipHeight = height * 0.0005;
       setClipPath(`inset(0px 0px ${clipHeight}px 0px)`);
     };
 

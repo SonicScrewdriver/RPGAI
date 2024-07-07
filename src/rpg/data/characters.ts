@@ -32,62 +32,55 @@ function createCharacter(partial: PartialCharacter): Character {
 }
 
 const characters: Record<string, Character> = {
-  "Li Wei": createCharacter({
-    eastworldId: "Li Wei",
-    sprite: "li_wei",
-    photo: "assets/photos/li_wei.jpeg",
-    actions: [
-      {
-        name: "RunAway",
-        startFrame: 1,
-        endFrame: 9,
-        frameRate: 32,
-      },
-    ],
+  "The Computer": createCharacter({
+    eastworldId: "The Computer",
+    sprite: "computer",
+    photo: "assets/photos/computer.jpeg",
+    actions: [],
   }),
   detective: createCharacter({
-    eastworldId: "Detective Samuel O'Connor",
+    eastworldId: "Troubleshooter Zed",
     sprite: "detective",
-    photo: "assets/photos/detective.jpeg",
+    photo: "assets/photos/zed.png",
     arrestable: false,
   }),
-  "Mei Lin": createCharacter({
-    eastworldId: "Mei Lin",
-    sprite: "mei_lin",
-    photo: "assets/photos/mei_lin.jpeg",
+  "Vending Machine": createCharacter({
+    eastworldId: "Vending Machine",
+    sprite: "vending_machine",
+    photo: "assets/photos/vending.png",
   }),
-  "William Harrington": createCharacter({
-    eastworldId: "William Harrington",
+  "Troubleshooter Beta": createCharacter({
+    eastworldId: "Troubleshooter Beta",
     sprite: "william_harrington",
-    photo: "assets/photos/william_harrington.jpeg",
+    photo: "assets/photos/beta.png",
     actions: [
       {
-        name: "Cane",
+        name: "Panic",
         startFrame: 1,
         endFrame: 7,
         frameRate: 12,
       },
     ],
   }),
-  "Victoria Ashford": createCharacter({
-    eastworldId: "Victoria Ashford",
+  "Troubleshooter Zeta": createCharacter({
+    eastworldId: "Troubleshooter Zeta",
     sprite: "victoria_ashford",
-    photo: "assets/photos/victoria_ashford.jpeg",
+    photo: "assets/photos/zeta.png",
   }),
-  "Amelia Turner": createCharacter({
-    eastworldId: "Amelia Turner",
+  "Troubleshooter Gamma": createCharacter({
+    eastworldId: "Troubleshooter Gamma",
     sprite: "amelia_turner",
-    photo: "assets/photos/amelia_turner.jpeg",
+    photo: "assets/photos/gamma.png",
   }),
-  "Percival Thornton": createCharacter({
-    eastworldId: "Percival Thornton",
-    sprite: "percival_thornton",
-    photo: "assets/photos/percival_thornton.jpeg",
+  "Troubleshooter Mike": createCharacter({
+    eastworldId: "Troubleshooter Mike",
+    sprite: "amelia_turner",
+    photo: "assets/photos/mike.png",
   }),
-  "Dr. Eleanor Bennett": createCharacter({
-    eastworldId: "Dr. Eleanor Bennett",
-    sprite: "eleanor_bennett",
-    photo: "assets/photos/eleanor_bennett.jpeg",
+  "Troubleshooter Delta": createCharacter({
+    eastworldId: "Troubleshooter Delta",
+    sprite: "amelia_turner",
+    photo: "assets/photos/delta.png",
   }),
   "Police Chief Locke": createCharacter({
     sprite: "police_officer",

@@ -116,7 +116,7 @@ const ChatModal = (props: ChatModalProps) => {
             <VStack>
               <Stack
                 direction={{ base: "column", xl: "row" }}
-                width={"80vw"}
+                width={"50vw"}
                 maxW={"1500px"}
                 justifyContent="center"
                 alignItems="center"

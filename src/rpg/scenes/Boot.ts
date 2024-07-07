@@ -12,21 +12,30 @@ export default class Boot extends Phaser.Scene {
       characters.detective.sprite,
       "assets/sprites/detective.png",
       {
-        frameWidth: 64,
-        frameHeight: 64,
+        frameWidth: 32,
+        frameHeight: 32,
         startFrame: 104,
         endFrame: 155,
       },
     );
 
+    this.load.spritesheet(
+      characters["Vending Machine"].sprite,
+      "assets/sprites/vending_machine.png",
+      {
+        frameWidth: 32,
+        frameHeight: 64,
+      },
+    );
+
     for (const [character, value] of Object.entries(characters)) {
-      if (character !== "detective") {
+      if (character !== "detective" && character !== "Vending Machine") {
         this.load.spritesheet(
           value.sprite,
           `assets/sprites/${value.sprite}.png`,
           {
-            frameWidth: 64,
-            frameHeight: 64,
+            frameWidth: 32,
+            frameHeight: 32,
           },
         );
       }
@@ -42,7 +51,7 @@ export default class Boot extends Phaser.Scene {
 
     this.load.tilemapTiledJSON(
       key.tilemap.town,
-      "assets/tilemaps/grontown_embedded.json",
+      "assets/tilemaps/paranoia.json",
     );
   }
 

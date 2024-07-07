@@ -823,52 +823,25 @@
   <object id="158" x="1155.82" y="846" width="88" height="4"/>
  </objectgroup>
  <objectgroup id="16" name="Misc" locked="1">
-  <object id="147" name="Spawn Point" x="1079.36" y="637.142">
+  <object id="147" name="Spawn Point" x="250" y="250">
    <point/>
   </object>
-  <object id="160" name="Percival Thornton" x="331.568" y="95.1947">
+  <object id="160" name="Troubleshooter Zed-R-XYZ" x="400" y="400">
    <point/>
   </object>
-  <object id="161" name="Dr. Eleanor Bennett" x="468.423" y="1131.25">
+  <object id="161" name="Troubleshooter Zeta 38572-75D" x="750" y="750">
    <point/>
   </object>
-  <object id="162" name="Victoria Ashford" x="1878.75" y="424.974">
+  <object id="162" name="Troubleshooter Beta 009834-34D" x="1000" y="1000">
    <point/>
   </object>
-  <object id="163" name="Li Wei" x="1389.33" y="1994.67">
+  <object id="163" name="The Computer" x="300" y="300">
    <point/>
   </object>
-  <object id="164" name="Amelia Turner" x="1149.88" y="184.253">
+  <object id="164" name="Vending Machine" x="1500" y="1500">
    <point/>
   </object>
-  <object id="165" name="William Harrington" x="1133.75" y="441.546">
-   <point/>
-  </object>
-  <object id="166" name="Mei Lin" x="1601.04" y="1315.4">
-   <point/>
-  </object>
-  <object id="168" name="Police Chief Locke" x="368.562" y="2136.58">
-   <point/>
-  </object>
-  <object id="169" name="Harrington Body" x="574.33" y="1148.66">
-   <point/>
-  </object>
-  <object id="171" name="Wine Glass" x="1592.12" y="385.309">
-   <point/>
-  </object>
-  <object id="172" name="Letter" x="1832.03" y="1895.04">
-   <point/>
-  </object>
-  <object id="173" name="Debt Letter" x="540.401" y="225.369">
-   <point/>
-  </object>
-  <object id="174" name="Gruel Flower" x="1841.73" y="2132.53">
-   <point/>
-  </object>
-  <object id="176" name="Newspaper" x="113.896" y="1068.69">
-   <point/>
-  </object>
-  <object id="177" name="Caning Teleport" x="1157.32" y="441.651">
+  <object id="165" name="Troubleshooter Gamma 3248972-99D" x="1750" y="1750">
    <point/>
   </object>
  </objectgroup>
